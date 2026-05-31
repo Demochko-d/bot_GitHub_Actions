@@ -1,8 +1,8 @@
 name: Send Telegram message
 
-on:
+"on":
   schedule:
-    - cron: "0 * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 jobs:
